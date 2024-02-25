@@ -23,8 +23,8 @@ const infos = [
 export default function Card () {
     return (
         <main className="rounded-xl bg-white relative">
-            <img src={CardPattern} className="rounded-t-xl"/>
-            <img src={ProfileAvatar} className="rounded-full border-4 border-white absolute top-1/4 left-1/3"/>
+            <img src={CardPattern} className="rounded-t-xl" alt="Card Pattern"/>
+            <img src={ProfileAvatar} className="rounded-full border-4 border-white absolute top-1/4 left-1/3" alt="Profile Avatar"/>
             <article className="text-center mt-16">
                 <div className="flex justify-center gap-2">
                     <h2 className="text-very-dark-desaturated-blue font-bold">Victor Crest</h2>
